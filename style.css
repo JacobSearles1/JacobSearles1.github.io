@@ -60,8 +60,9 @@ h4 {
 }
 
 .Linkedin {
-	margin-top: -342px;
-	margin-left: 1700px;
+	position: absolute;
+	top: -210px;
+	right: -150px;
 	scale: 10%;
 }
 
@@ -71,8 +72,9 @@ footer {
 
 h6 {
 	color: whitesmoke;
-	margin-top: -238px;
-	margin-left: 250px;
+	position: absolute;
+	top: 60px;
+	left: 260px;
 	font-size: 20px;
 }
 
