@@ -1,0 +1,99 @@
+h1 {
+	text-align: left;
+	background-color: black;
+	height: 150px;
+	width: 101%;
+	margin-left: -10px;
+	margin-top: -25px;
+}
+
+h2 {
+	color: whitesmoke;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: -105px;
+	font-family: sans-serif;
+	transition: inherit;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+h3 {
+	color: whitesmoke;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+
+.personal {
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+	font-size: 60px;
+}
+
+h4 {
+	text-align: center;
+	margin: auto;
+}
+
+.header {
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.list {
+	text-align: left;
+	margin-left: 500px;
+}
+
+.job {
+	text-align: left;
+	margin-left: 500px;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.Linkedin {
+	margin-top: -342px;
+	margin-left: 1700px;
+	scale: 10%;
+}
+
+footer {
+	margin-top: 3000px;
+}
+
+h6 {
+	color: whitesmoke;
+	margin-top: -238px;
+	margin-left: 250px;
+	font-size: 20px;
+}
+
+.firstname {
+	height: 16px;
+	font-size: 16px;
+	width: 30%;
+	text-align: left;
+}
+
+.email {
+	text-align: left;
+	width: 30%;
+	font-size: 16px;
+	height: 16px;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: whitesmoke;
+	display: block;
+	margin: auto;
+	font-size: 16px;
+}
