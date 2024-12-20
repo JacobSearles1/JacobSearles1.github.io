@@ -110,7 +110,10 @@ input[type="submit"] {
 }
 
 .bio {
-	text-align:center;
+    text-align: center;
+    position: fixed;
+    top: 500px;
+    left: 600px;
 }
 
 .print {
