@@ -100,19 +100,6 @@ input[type="submit"] {
 	font-size: 16px;
 }
 
-.motorcycle {
-	scale:25%;
-	position: absolute;
-	top: -250px;
-	right: 500px;
-	border: 10px solid black;
-	box-shadow: 3px;
-	max-width: 100%;
-	height: auto;
-	min-width: 250px;
-	display: block;
-}
-
 .inline {
 	font-size: 32px;
 	text-decoration: underline;
@@ -123,11 +110,7 @@ input[type="submit"] {
 }
 
 .bio {
-	position: absolute;
-	font-size: 24px;
-	max-width: 30%;
-	top: 300px;
-	left: 700px;
+	text-align:center;
 }
 
 .print {
