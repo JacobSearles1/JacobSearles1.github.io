@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("mWEAZPxQHYbq_UAC9"); // Replace with your EmailJS user ID
+        })();
+    </script>
+</head>
+<body>
+    <div class="header">
+        <header><a href="index.html">Jacob Searles</a></header>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <form id="form">
+            <div class="field">
+              <label for="from_name">Your Name:</label>
+              <input type="text" name="from_name" id="from_name" required>
+            </div>
+            <div class="field">
+                <label for="reply_to">Your Email:</label>
+                <input type="text" name="reply_to" id="reply_to" required>
+              </div>
+            <div class="field">
+              <label for="message">Your message:</label>
+              <input type="text" name="message" id="message" rows="4" cols="50" required></textarea>
+            </div>
+        
+            <input type="submit" id="button" value="Send Email" >
+          </form>
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('mWEAZPxQHYbq_UAC9')
+          </script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
