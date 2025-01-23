@@ -336,3 +336,52 @@ a.main:hover {
     color: #bb2424;
     text-decoration: #bb2424 underline dotted;
 }
+
+.resume-container {
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.resume-container p {
+    margin: 5px 0;
+}
+
+.resume-container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+}
+
+.resume-container h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #555555;
+}
+
+.resume-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.resume-container ul li {
+    margin-bottom: 5px;
+}
+
+.resume-container strong {
+    font-weight: bold;
+}
