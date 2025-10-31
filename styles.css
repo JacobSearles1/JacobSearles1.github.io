@@ -208,7 +208,7 @@ a {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 1060px) {
     .navbar {
         display: flex;
         flex-direction: row;
@@ -384,4 +384,5 @@ a.main:hover {
 
 .resume-container strong {
     font-weight: bold;
+
 }
